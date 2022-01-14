@@ -16,7 +16,7 @@ const greeting = {
   subTitle:
     "Full Stack Developer and Blockchain Enthusiast, with a grip on Data Structures and Algorithms 🔥",
   resumeLink:
-    "https://drive.google.com/file/d/1FMTiPYfA166xdnCcVwAt_RJldcYXnqTG/view?usp=sharing",
+    "https://drive.google.com/file/d/17L3PKdLCMCCw_xNz-FoDMQL6HF4uWoLI/view?usp=sharing",
   mail: "abhir.raj2410@gmail.com",
 };
 
@@ -29,7 +29,7 @@ const socialMediaLinks = {
   codechef: "https://www.codechef.com/users/abhir_24",
   leetcode: "https://leetcode.com/Abhir-24/",
   gfg: "https://auth.geeksforgeeks.org/user/abhirraj2410/practice",
-  resume: "https://drive.google.com/file/d/1FMTiPYfA166xdnCcVwAt_RJldcYXnqTG/view?usp=sharing"
+  resume: "https://drive.google.com/file/d/17L3PKdLCMCCw_xNz-FoDMQL6HF4uWoLI/view?usp=sharing"
 };
 
 const skills = {

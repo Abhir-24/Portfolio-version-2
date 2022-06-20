@@ -16,7 +16,7 @@ const greeting = {
   subTitle:
     "Full Stack Developer and Blockchain Enthusiast, with a grip on Data Structures and Algorithms 🔥",
   resumeLink:
-    "https://drive.google.com/file/d/17L3PKdLCMCCw_xNz-FoDMQL6HF4uWoLI/view?usp=sharing",
+    "https://drive.google.com/file/d/1EKHrpa8g_-FYwRlf4qY_GbNA_v0WEn1S/view?usp=sharing",
   mail: "abhir.raj2410@gmail.com",
 };
 
@@ -26,10 +26,10 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/abhir-raj-shrivastava-4a57711a0/",
   gmail: "abhir.raj2410@gmail.com",
   instagram: "https://instagram.com/abhir_24",
-  codechef: "https://www.codechef.com/users/abhir_24",
+  codechef: "https://www.codechef.com/users/darklord009",
   leetcode: "https://leetcode.com/Abhir-24/",
   gfg: "https://auth.geeksforgeeks.org/user/abhirraj2410/practice",
-  resume: "https://drive.google.com/file/d/17L3PKdLCMCCw_xNz-FoDMQL6HF4uWoLI/view?usp=sharing"
+  resume: "https://drive.google.com/file/d/1EKHrpa8g_-FYwRlf4qY_GbNA_v0WEn1S/view?usp=sharing"
 };
 
 const skills = {
@@ -254,12 +254,12 @@ const degrees = {
       alt_name: "JIIT",
       duration: "2019 - 2023",
       descriptions: [
-        "⚡ Current CGPA: 8.6",
+        "⚡ Current CGPA: 8.2",
         "⚡ Studying core subjects like Data Structures and Algorithms, DBMS, Computer Networks, Operating Systems etc.",
         "⚡ Pursuing a minor in Blockchain Technology",
         "⚡ I have also completed various online courses for Full Stack Web Development and Cloud Infra-Architecture",
         "⚡ I have implemented several projects based on what I've leart under my Undergraduate course ",
-        "⚡ I also practice DSA in my free time on platforms like Leetcode and Codechef ",
+        "⚡ I also practice DSA in my free time on platforms like Leetcode and GeeksForGeeks ",
       ],
       website_link: "https://www.jiit.ac.in/",
     },
@@ -353,6 +353,17 @@ const experience = {
     {
       title: "Work Experience",
       experiences: [
+        {  
+          title: "SDE(Front-End) Intern",
+          company: "Interview Vector",
+          company_url: "https://interviewvector.com/",
+          logo_path: "interviewvector.jpg",
+          duration: "Feb 2022 - May 2022",
+          location: "Work from Home",
+          description:
+            "Worked on Implementing new features and Fixed existing bugs in the Client dashboard,ops-dashboard and interviewer dashboard",
+          color: "#16389D",
+        },
         {
           title: "Front End Development Intern",
           company: "Supero Software Private Ltd.",
@@ -430,6 +441,17 @@ const experience = {
       title: "Volunteership",
       experiences: [
         {
+          title: "Volunteer",
+          company: "Natonal Service Scheme, JIIT 128",
+          company_url: "#",
+          logo_path: "nss.jpg",
+          duration: "Feb 2020 - Present",
+          location: "JIIT 128/Work From Home",
+          description:
+            "Participating in various drives such as Blood Donation Camp, Yoga Camp etc.",
+          color: "red",
+        },
+        {
           title: "Technical Coordinator",
           company: "Google Developer Students Clubs, JIIT 128",
           company_url: "https://gdscjiit128.tech/",
@@ -487,7 +509,7 @@ const projects = {
       id: "0",
       name: "Teconect",
       url: "https://github.com/minor-G43/Teconect-Frontend",
-      description: "A group project , focused on collecting people with similar interest who want to apply their skills on cool projects by connecting with peers.",
+      description: "A website/app through which people can post and also connect and collaborate on projects of similar tech stack.",
       languages: [
         {
           name: "ReactJS",
@@ -530,28 +552,44 @@ const projects = {
     },
     {
       id: "2",
-      name: "User Authentication",
-      url: "https://github.com/Abhir-24/User-Authentication",
-      description: "A reusable component for User Authentication which can be used for integrating login/signup functionality",
+      name: "Techpeer",
+      url: "https://github.com/Abhir-24/techpeer",
+      description: "A platform where developers can collaborate with others and work on any project with the real-time editor and real-time communication..",
       languages: [
-        {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
-        },
         {
           name: "NodeJS",
           iconifyClass: "logos-nodejs",
         },
         {
-          name: "MongoDB",
-          iconifyClass: "logos-mongodb",
+          name: "ExpressJS",
+          iconifyClass: "logos-express",
         },
-        {
-          name: "JSON Web Tokens",
-          iconifyClass: "logos-jwt",
-        }
       ],
     },
+    // {
+    //   id: "2",
+    //   name: "User Authentication",
+    //   url: "https://github.com/Abhir-24/User-Authentication",
+    //   description: "A reusable component for User Authentication which can be used for integrating login/signup functionality",
+    //   languages: [
+    //     {
+    //       name: "ReactJS",
+    //       iconifyClass: "logos-react",
+    //     },
+    //     {
+    //       name: "NodeJS",
+    //       iconifyClass: "logos-nodejs",
+    //     },
+    //     {
+    //       name: "MongoDB",
+    //       iconifyClass: "logos-mongodb",
+    //     },
+    //     {
+    //       name: "JSON Web Tokens",
+    //       iconifyClass: "logos-jwt",
+    //     }
+    //   ],
+    // },
     {
       id: "3",
       name: "Sparks Bank",
@@ -574,18 +612,18 @@ const projects = {
     },
     {
       id: "4",
-      name: "Attendance Management System",
-      url: "https://github.com/Abhir-24/Attendance-Management-System",
+      name: "Multi-Level Steganography",
+      url: "https://github.com/minor-G43/Multi-Level-Steganography",
       description:
-        "A website created for recording attendance for DSC workshops",
+        "A project made using python which helps in encoding and decoding an encrypted message in an image",
       languages: [
         {
-          name: "ReactJS",
-          iconifyClass: "logos-react",
+          name: "Python",
+          iconifyClass: "logos-python",
         },
         {
-          name: "Formspree",
-          iconifyClass: "vscode-icons:file-type-css",
+          name: "Jupyter Notebook",
+          iconifyClass: "logos-jupyter",
         },        
       ],
     },

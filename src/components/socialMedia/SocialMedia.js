@@ -33,7 +33,7 @@ export default function socialMedia() {
         <i className="fab fa-google"></i>
         <span></span>
       </a>
-    
+
       <a
         href={socialMediaLinks.instagram}
         className="icon-button instagram"
@@ -44,7 +44,7 @@ export default function socialMedia() {
         <span></span>
       </a>
 
-      <a href={socialMediaLinks.codechef}
+      {/* <a href={socialMediaLinks.codechef}
        className="icon-button codechef"
         target="_blank"
         rel="noopener noreferrer"
@@ -52,7 +52,7 @@ export default function socialMedia() {
         <i class="fab fa-cuttlefish"></i>
         
         <span></span>
-      </a>
+      </a> */}
 
       <a
         href={socialMediaLinks.leetcode}

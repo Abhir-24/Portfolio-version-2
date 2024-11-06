@@ -1,4 +1,3 @@
-
 // Website related settings
 const settings = {
   isSplash: true, // Change this to true if you want to use the splash screen.
@@ -14,9 +13,9 @@ const greeting = {
   nickname: "Abhir",
   full_name: "Abhir Raj Shrivastava",
   subTitle:
-    "Full Stack Developer and Blockchain Enthusiast, with a grip on Data Structures and Algorithms 🔥",
+    "Full Stack Developer and Blockchain Enthusiast 🔥, currently working as a Software Developer at Jio Platforms Limited",
   resumeLink:
-    "https://drive.google.com/file/d/1EKHrpa8g_-FYwRlf4qY_GbNA_v0WEn1S/view?usp=sharing",
+    "https://drive.google.com/file/d/1mtXh75rem_y2RWlPOxL3eNfp9LbvdROa/view?usp=sharing",
   mail: "abhir.raj2410@gmail.com",
 };
 
@@ -26,10 +25,11 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/abhir-raj-shrivastava-4a57711a0/",
   gmail: "abhir.raj2410@gmail.com",
   instagram: "https://instagram.com/abhir_24",
-  codechef: "https://www.codechef.com/users/darklord009",
+  // codechef: "https://www.codechef.com/users/darklord009",
   leetcode: "https://leetcode.com/Abhir-24/",
   gfg: "https://auth.geeksforgeeks.org/user/abhirraj2410/practice",
-  resume: "https://drive.google.com/file/d/1EKHrpa8g_-FYwRlf4qY_GbNA_v0WEn1S/view?usp=sharing"
+  resume:
+    "https://drive.google.com/file/d/1mtXh75rem_y2RWlPOxL3eNfp9LbvdROa/view?usp=sharing",
 };
 
 const skills = {
@@ -39,7 +39,7 @@ const skills = {
       fileName: "FullStackImg",
       skills: [
         "⚡ Develop highly interactive Front end / User Interfaces for your web applications",
-        "⚡ Building responsive website front end using extensions like ReactJS, NuxtJ0, VueJsS etc.",
+        "⚡ Building responsive website front end using extensions like ReactJS, NextJS, VueJsS etc.",
         "⚡ Creating application backend in Node, Express & MongoDB and also in Firebase",
         "⚡ Integration of third party services such as  AWS, Netlify and Heroku",
         "⚡ Styling Website with Ant-Design, Tailwind-css, Material-Ui and Bootstrap",
@@ -77,7 +77,7 @@ const skills = {
         },
         {
           skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          fontAwesomeClassname: "logos:nodejs-icon",
           style: {
             color: "#339933",
           },
@@ -92,8 +92,8 @@ const skills = {
         },
 
         {
-          skillName: "NuxtJS",
-          fontAwesomeClassname: "simple-icons:nuxt-dot-js",
+          skillName: "NextJS",
+          fontAwesomeClassname: "skill-icons:nextjs-dark",
           style: {
             color: "#00DC82",
           },
@@ -115,8 +115,8 @@ const skills = {
         },
 
         {
-          skillName: "GraphQL",
-          fontAwesomeClassname: "simple-icons:graphql",
+          skillName: "Bash Scripting",
+          fontAwesomeClassname: "simple-icons:gnubash",
           style: {
             color: "#DE33A6",
           },
@@ -124,7 +124,7 @@ const skills = {
 
         {
           skillName: "VueJS",
-          fontAwesomeClassname: "simple-icons:vuejs",
+          fontAwesomeClassname: "logos:vue",
           style: {
             color: "#4FC08D",
           },
@@ -155,8 +155,8 @@ const skills = {
         },
 
         {
-          skillName: "Jquery",
-          fontAwesomeClassname: "simple-icons:jquery",
+          skillName: "Tailwind CSS",
+          fontAwesomeClassname: "skill-icons:tailwindcss-dark",
           style: {
             color: "#0769AD",
           },
@@ -248,17 +248,16 @@ const degrees = {
   degrees: [
     {
       title: "Jaypee Institute of Information Technology",
-      subtitle:
-        "B.Tech in Computer Science and Engineering",
+      subtitle: "B.Tech in Computer Science and Engineering",
       logo_path: "jiit.jpeg",
       alt_name: "JIIT",
       duration: "2019 - 2023",
       descriptions: [
-        "⚡ Current CGPA: 8.2",
-        "⚡ Studying core subjects like Data Structures and Algorithms, DBMS, Computer Networks, Operating Systems etc.",
-        "⚡ Pursuing a minor in Blockchain Technology",
+        "⚡ CGPA: 8.0",
+        "⚡ Studied core subjects like Data Structures and Algorithms, DBMS, Computer Networks, Operating Systems etc.",
+        "⚡ Also pursued a minor in Blockchain Technology and Cyber Security",
         "⚡ I have also completed various online courses for Full Stack Web Development and Cloud Infra-Architecture",
-        "⚡ I have implemented several projects based on what I've leart under my Undergraduate course ",
+        "⚡ I have implemented several projects based on what I've learnt under my Undergraduate course ",
         "⚡ I also practice DSA in my free time on platforms like Leetcode and GeeksForGeeks ",
       ],
       website_link: "https://www.jiit.ac.in/",
@@ -266,8 +265,7 @@ const degrees = {
 
     {
       title: "Mount Carmel School, Anand Niketan",
-      subtitle:
-        "School Education",
+      subtitle: "School Education",
       logo_path: "mcs.jpeg",
       alt_name: "MCS",
       duration: "2005 - 2019",
@@ -284,12 +282,12 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "30 Days of Google Cloud",
-      subtitle: "Google Cloud",
-      logo_path: "cloud.jpeg",
+      title: "AWS Fundamentals",
+      subtitle: "AWS",
+      logo_path: "aws.png",
       certificate_link:
-        "https://drive.google.com/file/d/1KAAcMw9hV9tvussk4RoHFTAYHwbsGXF_/view?usp=sharing",
-      alt_name: "30 Days of Google Cloud",
+        "https://drive.google.com/file/d/1Bh09NbSJ8uYOrccYxdnbxz0lEHSSqslV/view?usp=sharing",
+      alt_name: "AWS Fundamentals",
       color_code: "#F0FFFF",
     },
 
@@ -322,21 +320,21 @@ const certifications = {
       color_code: "#F0FFFF",
     },
     {
-      title: "Virtual Internship Experience",
-      subtitle: "Microsoft",
-      logo_path: "micro.jpeg",
+      title: "Linux Fundamentals",
+      subtitle: "Coursera",
+      logo_path: "linux.png",
       certificate_link:
-        "https://drive.google.com/file/d/1XjIp1i_z2MFba1HEhu-UbIP9BKdc8QN9/view?pli=1",
-      alt_name: "Microsoft",
+        "https://drive.google.com/file/d/18PaE7RnZ0ii-u-brgpot8olL8lhnBzuo/view?usp=sharing",
+      alt_name: "Linux",
       color_code: "#F0FFFF",
     },
     {
-      title: "Data Structures & Algorithms, Level-up for Coding Interviews",
-      subtitle: "Udemy",
-      logo_path: "udemy.png",
+      title: "Shell Scripting and Linux",
+      subtitle: "IBM",
+      logo_path: "linux.png",
       certificate_link:
-        "#",
-      alt_name: "Udemy",
+        "https://drive.google.com/file/d/1QDVNHyh8Pf83oBoBjR8MDUQ6D9kieYMb/view?usp=sharing",
+      alt_name: "IBM",
       color_code: "#F0FFFF",
     },
   ],
@@ -353,7 +351,34 @@ const experience = {
     {
       title: "Work Experience",
       experiences: [
-        {  
+        {
+          title: "Software Developer",
+          company: "Jio Platforms Limited",
+          company_url: "https://www.jio.com/platforms/about-us",
+          logo_path: "jio.png",
+          duration: "June 2023 - Present",
+          location: "Noida, India",
+          description:
+            "Implemented interface for analysing network details for packets sent from MRU Interface to CCDU, Enhanced the cellup time for Primary Process L1 using libraries like DPDK and WLS in 5G Network Interface. Customized the process for up bringing of L1 using bash scripting",
+          color: "#0a2885",
+        },
+      ],
+    },
+    {
+      title: "Internship Experience",
+      experiences: [
+        {
+          title: "SDE Intern",
+          company: "Datastunt",
+          company_url: "https://interviewvector.com/",
+          logo_path: "datastunt.jpeg",
+          duration: "Jun 2022 - Aug 2022",
+          location: "Noida, India",
+          description:
+            "Developed and integrated new features into the company’s primary website to enhance functionality and improve user experience.",
+          color: "#4d96c0",
+        },
+        {
           title: "SDE(Front-End) Intern",
           company: "Interview Vector",
           company_url: "https://interviewvector.com/",
@@ -395,8 +420,7 @@ const experience = {
           logo_path: "intern.jpeg",
           duration: "June 2021 - July 2021",
           location: "Work from Home",
-          description:
-            "Developed an e-commerce website",
+          description: "Developed an e-commerce website",
           color: "#6E9064",
         },
 
@@ -407,8 +431,7 @@ const experience = {
           logo_path: "sparks.png",
           duration: "March 2021 - April 2021",
           location: "Work from Home",
-          description:
-            "Developed a basic banking website and Donation website",
+          description: "Developed a basic banking website and Donation website",
           color: "#5C8DFF",
         },
 
@@ -434,7 +457,7 @@ const experience = {
           description:
             "Created questions in HTML, CSS and Javascript to be hosted on the website abekus.com",
           color: "#464276",
-        }
+        },
       ],
     },
     {
@@ -445,7 +468,7 @@ const experience = {
           company: "Natonal Service Scheme, JIIT 128",
           company_url: "#",
           logo_path: "nss.jpg",
-          duration: "Feb 2020 - Present",
+          duration: "Feb 2020 - May 2023",
           location: "JIIT 128/Work From Home",
           description:
             "Participating in various drives such as Blood Donation Camp, Yoga Camp etc.",
@@ -456,7 +479,7 @@ const experience = {
           company: "Google Developer Students Clubs, JIIT 128",
           company_url: "https://gdscjiit128.tech/",
           logo_path: "gdsc.png",
-          duration: "Sep 2020 - Present",
+          duration: "Sep 2020 - May 2022",
           location: "JIIT 128/Work From Home",
           description:
             "Conducting workshops and teach students about Web Development and other technologies",
@@ -509,7 +532,8 @@ const projects = {
       id: "0",
       name: "Teconect",
       url: "https://github.com/minor-G43/Teconect-Frontend",
-      description: "A website/app through which people can post and also connect and collaborate on projects of similar tech stack.",
+      description:
+        "A website/app through which people can post and also connect and collaborate on projects of similar tech stack.",
       languages: [
         {
           name: "ReactJS",
@@ -524,7 +548,7 @@ const projects = {
           iconifyClass: "logos-mongodb",
         },
         {
-          name: "ExpressJS",
+          name: "Firebase",
           iconifyClass: "logos-firebase",
         },
         {
@@ -554,7 +578,8 @@ const projects = {
       id: "2",
       name: "Techpeer",
       url: "https://github.com/Abhir-24/techpeer",
-      description: "A platform where developers can collaborate with others and work on any project with the real-time editor and real-time communication..",
+      description:
+        "A platform where developers can collaborate with others and work on any project with the real-time editor and real-time communication..",
       languages: [
         {
           name: "NodeJS",
@@ -594,7 +619,8 @@ const projects = {
       id: "3",
       name: "Sparks Bank",
       url: "https://github.com/Abhir-24/Sparks-Bank",
-      description: "A basic banking website made as part of my internship project",
+      description:
+        "A basic banking website made as part of my internship project",
       languages: [
         {
           name: "NodeJS",
@@ -624,42 +650,68 @@ const projects = {
         {
           name: "Jupyter Notebook",
           iconifyClass: "logos-jupyter",
-        },        
+        },
       ],
     },
     {
       id: "5",
-      name: "Foods Point",
-      url: "https://github.com/Abhir-24/Foods-Point-Project",
+      name: "SHG Helper",
+      url: "https://github.com/minor-G43/shg-helper",
       description:
-        "A website made using forkify-api for searching different recipes",
+        "A platform which take the complete process of the currently offline Self Help Group system into an online mode",
       languages: [
         {
-          name: "HTML",
-          iconifyClass: "vscode-icons:file-type-html",
-        },
-        {
-          name: "CSS",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
+          name: "ReactJS",
+          iconifyClass: "logos-react",
         },
         {
           name: "NodeJS",
           iconifyClass: "logos-nodejs",
         },
         {
-          name: "Webpack",
-          iconifyClass: "logos-webpack",
+          name: "ExpressJS",
+          iconifyClass: "logos-express",
         },
         {
-          name: "Babel",
-          iconifyClass: "logos-babel",
+          name: "Firebase",
+          iconifyClass: "logos-firebase",
         },
       ],
     },
+
+    // {
+    //   id: "5",
+    //   name: "Foods Point",
+    //   url: "https://github.com/Abhir-24/Foods-Point-Project",
+    //   description:
+    //     "A website made using forkify-api for searching different recipes",
+    //   languages: [
+    //     {
+    //       name: "HTML",
+    //       iconifyClass: "vscode-icons:file-type-html",
+    //     },
+    //     {
+    //       name: "CSS",
+    //       iconifyClass: "vscode-icons:file-type-css",
+    //     },
+    //     {
+    //       name: "JavaScript",
+    //       iconifyClass: "logos-javascript",
+    //     },
+    //     {
+    //       name: "NodeJS",
+    //       iconifyClass: "logos-nodejs",
+    //     },
+    //     {
+    //       name: "Webpack",
+    //       iconifyClass: "logos-webpack",
+    //     },
+    //     {
+    //       name: "Babel",
+    //       iconifyClass: "logos-babel",
+    //     },
+    //   ],
+    // },
     {
       id: "6",
       name: "Student-Marks-Predictor",
@@ -693,15 +745,13 @@ const projects = {
     {
       id: "8",
       name: "NuxtJS Clone Website",
-      url:
-        "https://github.com/Abhir-24/Nuxt-Js-clone-website",
+      url: "https://github.com/Abhir-24/Nuxt-Js-clone-website",
       description: "A website with UI similar to nuxt.org",
       languages: [
         {
           name: "NuxtJS",
           iconifyClass: "logos-nuxt",
         },
-        
       ],
     },
   ],
